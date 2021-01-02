@@ -3,6 +3,7 @@
 	<head>
 		<title>My Doctor Hospitals</title>
 		<link rel="stylesheet" href="css/contact.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<ul>

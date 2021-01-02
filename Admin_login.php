@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>Admin Log In</title>
-		<link rel="Stylesheet" type="text/css" href="css/style1.css">
+		<link rel="Stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
 	<header>
@@ -10,21 +10,17 @@
 			<a style="float:right;padding-right:450px;padding-top:30px;font-size:50px;">Rajarata Medical Center</a>
 			</div>
 		</header>
-
-
 		<div class="loginbox">
-			<img src="img/admin logo1.jpg" class="avatar">
-			<h1>Admin Login</h1>
+			<img src="img/user icon.png" class="avatar">
+			<h1>Login Here</h1>
 			<form>
-					<p>User Name</p>
+					<p>Administrator Name</p>
 					<input type="text" name="" placeholder="Enter User Name">
 					<p>Password</p>
 					<input type="password" name="" placeholder="Enter Password">
 					<input type="submit" name="" value="Login">
 				</form>
 			</div>
-
-
 			<br>
 			<br>
 			<br>

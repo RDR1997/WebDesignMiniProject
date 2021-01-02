@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>My Doctor Hospitals</title>
-		<link rel="stylesheet" href="contact.css">
+		<link rel="stylesheet" href="css/contact.css">
 	</head>
 	<body>
 		<ul>

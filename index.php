@@ -7,20 +7,9 @@
 		
 	</head>
 	<body style="background-color:#acf5fb">
-		<!-- Header------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
 		
 			<!-- navigation bar------------------------------------------------------------------------------------------------------------------------------------- -->
 			<ul>
-				
-				<!--<li class="login_dropdown"><!--when mouse point put on Login aren on Nav.bar it will drop down more options
-					<button class="dropbtn">Login</button>
-					<div class="login_dropdown-content">
-						<a href="#">Login as Admin</a>
-						<a href="#">Login as Doctor</a>
-						<a href="#">Login as Penitent</a>
-					</div>
-				</li>-->
 				<img src="img/logo.png"alt="logo"style="width:55px;height:55px; padding-left: 10px;"align="left";>
 				<li class="logo">My Doctor Hospitals
 				
@@ -37,7 +26,7 @@
 				<li class="nav"><a href="contact.php">Contact</a></li>
 				<li class="nav"><a href="about_us.html">About us</a></li>
 				<li class="nav"><a href="services.php">Services</a></li>
-				<li class="nav"><a href="index.html">Home</a></li>
+				<li class="nav"><a href="index.php">Home</a></li>
 			</ul>
 			
 			
@@ -67,12 +56,14 @@
 				<span class="dot"></span>
 				<span class="dot"></span>	
 
-			<!--javascript------------------------------------------------------------------------------------------------------------------------------------------------>
+			<!--javascript------------------------------------>
 			<script src="js/homejs.js"></script>	
-				
+			<!-- slideshow end--------------------------------------------------------------------------------------------------------------------------------------------->	
+			
+			<!-- table1---------------------------------------------------------------------------------------------------------------------------------------------------->
 			<table  align="center"width=100%;>
 				<tr style="font-size:150px;">
-					<td>100</td>
+					<td>10</td>
 					<td>#1</td>
 					<td>3</td>
 					<td>200</td>
@@ -85,23 +76,162 @@
 				</tr>
 			
 			</table>
+			<!-- table1 end------------------------------------------------------------------------------------------------------------------------------------------------->
 			<br><br>
 			
+			<!--timetable------------------------------------------------------------------------------------------------------------------------------------------------ -->	
+					
+					<table style="height:500px;width:100%;font-size:20px;background-color:rgba(255, 255, 255, .4);text-align:center";>
+						 <caption><h2>Our Doctor's time table</h2></caption>	
+							<tr style="background-color:rgba(255, 255, 255, .4);height:50px">
+								<th>Doctor</th>
+								<th>Monday</th> 
+								<th>Tuesday</th>
+								<th>Wednesday</th>
+								<th>Thursday</th> 
+								<th>Friday</th>		
+								<th>Saturday</th> 
+								<th>Sunday</th>								
+							</tr>
+							<tr>
+								<td>Dr A</td>
+								<td>8am - 4pm</td>
+								<td>11am - 7pm</td>
+								<td>11am - 7pm</td>
+								<td>8am - 4pm</td>
+								<td>11am - 7pm</td>
+								<td>8am - 3pm</td>
+								<td>8am - 12pm</td>
+							</tr>
+							<tr>
+								<td>Dr B</td>
+								<td>11am - 6pm</td>
+								<td>7am - 3pm</td>
+								<td>-</td>
+								<td>8am - 5pm</td>
+								<td>12am - 5pm</td>
+								<td>12pm - 6pm</td>
+								<td>8am - 12pm</td>
+							</tr>
+							<tr>
+								<td>Dr C</td>
+								<td>8am - 5pm</td>
+								<td>8am - 5pm</td>
+								<td>-</td>
+								<td>9am - 6pm</td>
+								<td>-</td>
+								<td>8am - 3pm</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Dr D</td>
+								<td>-</td>
+								<td>-</td>
+								<td>11am - 7pm</td>
+								<td>8am - 4pm</td>
+								<td>11am - 7pm</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>		
+								<td>Dr E</td>
+								<td>-</td>
+								<td>8am - 7pm</td>
+								<td>10am - 3pm</td>
+								<td>8am - 4pm</td>
+								<td>-</td>
+								<td>12pm - 6pm</td>
+								<td>12pm - 6pm</td>	
+							</tr>	
+								<td>Dr F</td>
+								<td>8am - 4pm</td>
+								<td>11am - 7pm</td>
+								<td>11am - 7pm</td>
+								<td>8am - 4pm</td>
+								<td>11am - 7pm</td>
+								<td>8am - 3pm</td>
+								<td>8am - 12pm</td>
+							</tr>
+							<tr>
+								<td>Dr G</td>
+								<td>11am - 6pm</td>
+								<td>7am - 3pm</td>
+								<td>-</td>
+								<td>8am - 5pm</td>
+								<td>12am - 5pm</td>
+								<td>12pm - 6pm</td>
+								<td>8am - 12pm</td>
+							</tr>
+							<tr>
+								<td>Dr H</td>
+								<td>8am - 5pm</td>
+								<td>8am - 5pm</td>
+								<td>-</td>
+								<td>9am - 6pm</td>
+								<td>-</td>
+								<td>8am - 3pm</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>Dr I</td>
+								<td>-</td>
+								<td>-</td>
+								<td>11am - 7pm</td>
+								<td>8am - 4pm</td>
+								<td>11am - 7pm</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>		
+								<td>Dr J</td>
+								<td>-</td>
+								<td>8am - 7pm</td>
+								<td>10am - 3pm</td>
+								<td>8am - 4pm</td>
+								<td>-</td>
+								<td>12pm - 6pm</td>
+								<td>12pm - 6pm</td>	
+							</tr>								
+						</table>
+			<!--timetable end--------------------------------------------------------------------------------------------------------------------------------------------- -->			
 			
+			<br>
 			
+			<!-- table2---------------------------------------------------------------------------------------------------------------------------------------------------->
+			<table  align="center"width=100%";>
+				<tr style="font-size:150px;">
+					<td>100</td>
+					<td>50</td>
+					<td>24h</td>
+					
+				</tr>
+				<tr style="font-size:20px";>
+					<td>COCHLEAR IMPLANTS</td>
+					<td>IVF BABIES</td>
+					<td>ACTIVE AMBULANCE SERVICE</td>
+					
+				</tr>
 			
+			</table>
+			<!-- table2 end-------------------------------------------------------------------------------------------------------------------------------------------------->			
 			
+			<br>
 			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+			<!--Doc's quoet------------------------------------------------------------------------------------------------------------------------------------------------ -->	
+			<div class="docsays">
+				<img src="img/index2.png"style="width:100%;height:100%">
+
+				<div class="textplace"style="text-align:left;">
+					<p style="font-size:45px;line-height:1.2;">Every Mind Matters<br>
+					<font style="font-size:120px">DO NOT</font>
+					<font style="font-size:40px"><br>stay glued to the news<br></font></p>
+					<p style="font-size:20px;">Try to limit the time you spend watching, reading
+												or listening<br> to coverage of the outbreak, including on social
+												 media, and <br>think about turning off breaking news alerts on your phone.</p>
+					
+				</div>
+			</div>
+			<!--Doc's quoet end----------------------------------------------------------------------------------------------------------------------------------------------->
 			
 			<!-- Footer------------------------------------------------------------------------------------------------------------------------------------------------- -->
 			<footer>

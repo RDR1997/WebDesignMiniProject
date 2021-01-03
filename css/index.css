@@ -1,4 +1,4 @@
-/* The login dropdown container */
+/* The login dropdown container ----------------*/
 .login_dropdown {
   float: right;
   overflow: hidden;
@@ -10,7 +10,7 @@
   border: none;
   outline: none;
   color: #000;
-  padding: 16px 16px;
+  padding: 16px 54px;
   font-family: 'Poppins', sans-serif;
   background-color: inherit;
 }
@@ -21,7 +21,7 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 120px;
-  /*max-width: 147px;*/
+  max-width: 147px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -30,7 +30,7 @@
 .login_dropdown-content a {
   float: left;
   color: black;
-  padding: 16px 16px;
+  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -51,8 +51,9 @@
 	background-color:#6666ff;
 	color: #fff;
 }
-/*
-*{box-sizing:border-box;}*/
+
+
+/*css related to slideshow-------------------------------------------------------*/
 .mySlides {
 	display:none;
 }
@@ -69,7 +70,7 @@
 	font-size:60px;
 	padding:8px 12px;
 	position:absolute;
-	bottom:900px;
+	top:10%;
 	width:100%;
 	text-align:center;
 }
@@ -87,4 +88,20 @@
 
 .active{
 	background-color:#717171;
+}
+/*css related to slideshow end---------------------------------------------------*/
+
+}
+/*css related to doctor's quote--------------------------------------------------*/
+.docsays{
+	position:relative;
+	text-align:center;
+	color:white;
+}
+
+.textplace{
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

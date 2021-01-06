@@ -8,10 +8,10 @@
 	<body>
 		<ul>
 			<li class="logo">My Doctor Hospitals</li>
-			<li class="nav"><a href="contact.html">Contact</a></li>
-			<li class="nav"><a href="about_us.html">About us</a></li>
+			<li class="nav"><a href="contact.php">Contact</a></li>
+			<li class="nav"><a href="about_us.php">About us</a></li>
 			<li class="nav"><a href="services.php">Services</a></li>
-			<li class="nav"><a href="index.html">Home</a></li>
+			<li class="nav"><a href="index.php">Home</a></li>
 		</ul>
 
 	

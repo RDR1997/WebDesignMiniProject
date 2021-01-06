@@ -1,13 +1,13 @@
 <html>
 <head>
 	<title>Doctor Log In</title>
-		<link rel="Stylesheet" type="text/css" href="css/login.css">
+	<link rel="Stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
 	<header>
 			<div class="header">
 				<img src="img/logo.jpg"alt="logo"style="width:150px;height:150;font-size:30px ">
-			<a style="float:right;padding-right:450px;padding-top:30px;font-size:50px;">Rajarata Medical Center</a>
+				<a style="float:right;padding-right:450px;padding-top:30px;font-size:50px;">Rajarata Medical Center</a>
 			</div>
 		</header>
 		<div class="loginbox">

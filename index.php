@@ -61,14 +61,14 @@
 			<!-- slideshow end--------------------------------------------------------------------------------------------------------------------------------------------->	
 			
 			<!-- table1---------------------------------------------------------------------------------------------------------------------------------------------------->
-			<table  align="center"width=100%;>
-				<tr style="font-size:150px;">
+			<table  align="center"width="100%";>
+				<tr style="font-size:150px;text-align:center;">
 					<td>10</td>
 					<td>#1</td>
 					<td>3</td>
 					<td>200</td>
 				</tr>
-				<tr style="font-size:20px";>
+				<tr style="font-size:20px;text-align:center;">
 					<td>WELL TRAINED DOCTORS</td>
 					<td>MEDICAL CENTER IN ANUURADHAPURA</td>
 					<td>BRANCHERS</td>
@@ -198,14 +198,14 @@
 			<br>
 			
 			<!-- table2---------------------------------------------------------------------------------------------------------------------------------------------------->
-			<table  align="center"width=100%";>
-				<tr style="font-size:150px;">
+			<table  align="center"width="100%";>
+				<tr style="font-size:150px;text-align:center;">
 					<td>100</td>
 					<td>50</td>
 					<td>24h</td>
 					
 				</tr>
-				<tr style="font-size:20px";>
+				<tr style="font-size:20px;text-align:center;">
 					<td>COCHLEAR IMPLANTS</td>
 					<td>IVF BABIES</td>
 					<td>ACTIVE AMBULANCE SERVICE</td>

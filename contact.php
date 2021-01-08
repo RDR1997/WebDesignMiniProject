@@ -6,13 +6,26 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<ul>
-			<li class="logo">My Doctor Hospitals</li>
-			<li class="nav"><a href="contact.php">Contact</a></li>
-			<li class="nav"><a href="about_us.php">About us</a></li>
-			<li class="nav"><a href="services.php">Services</a></li>
-			<li class="nav"><a href="index.php">Home</a></li>
-		</ul>
+<!-- navigation bar------------------------------------------------------------------------------------------------------------------------------------- -->
+			<ul>
+				<img src="img/logo.png"alt="logo"style="width:55px;height:55px; padding-left: 10px;"align="left";>
+				<li class="logo">My Doctor Hospitals
+				
+				</li>
+				
+				<li class="login_dropdown"><!--when mouse point put on Login aren on Nav.bar it will drop down more options-->
+					<button class="dropbtn">Login</button>
+					<div class="login_dropdown-content">
+						<a href="Admin_login.php">Login as Admin</a>
+						<a href="Doctor_login.php">Login as Doctor</a>
+						<a href="Patient_login.php">Login as Patient</a>
+					</div>
+				</li>
+				<li class="nav"><a href="contact.php">Contact</a></li>
+				<li class="nav"><a href="about.php">About us</a></li>
+				<li class="nav"><a href="services.php">Services</a></li>
+				<li class="nav"><a href="index.php">Home</a></li>
+			</ul>
 
 	
 	<div class="row">

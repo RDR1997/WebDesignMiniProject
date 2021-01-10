@@ -31,10 +31,11 @@
 }
 
 .table1{
-	margin-top:30%;
+	margin-top:10%;
 	width:75%;
 	margin-left: 25%;
 	border-collapse:collapse;
+	
 }
 .table1 th{
 	font-size:20px;
@@ -54,4 +55,43 @@
 }
 .table1 a:hover{
 	color:white;
+}
+
+.table2{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+	border-collapse: collapse;
+	background-color:white;
+}
+.table2 td, .table2 th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+.table2 tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+.table2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3498DB;
+  color: white;
+}
+
+.table3{
+	margin-top:2%;
+	margin-left:18%;
+	width:75%;
+	
+	border-collapse:collapse;
+}
+.table3 th{
+	font-size:180px;
+	text-align:center;
+	color:#3498DB;
+}
+.table3 td{
+	font-size:30px;
+	text-align:center;
 }

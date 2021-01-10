@@ -10,8 +10,8 @@ body{
 }
 /*for the log in box*/
 .loginbox{
-	width:350px;
-	height:420px;
+	width:375px;
+	height:450px;
 	background: #000;
 	color: #fff;
 	top: 50%;
@@ -91,12 +91,6 @@ body{
 	color: #0080FF;
 }
 
-
-/*Footer*/
-.footer{
-	padding:50px;
-	background:	#8ae5ff;
-}
 /*Header*/
 .header{
 	padding:30px;

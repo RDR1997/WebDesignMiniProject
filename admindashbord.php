@@ -81,7 +81,7 @@
 				</tr>
 				<tr>
 					<td><a href="#1">View Doctors</a></td>
-					<td><a href="admin/showPatientPopup.php">View Patient</a></td>
+					<td><a href="admin/showPatient.php">View Patient</a></td>
 					<td><a href="#1">View Appointments</a></td>
 					
 				</tr>

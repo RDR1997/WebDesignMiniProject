@@ -34,7 +34,45 @@
 			</div>
 		</div>	
 		
-		
+		<!--counters--------------------------------------------------------------------------------------------------------------------------------------->
+		<table class="table3">	
+				<tr>
+					<th>
+						<?php
+						$conn  = mysqli_connect("localhost","root","","my doctor");
+						mysqli_select_db($conn,"my doctor");
+
+						$result = mysqli_query( $conn,"SELECT * FROM doctor");
+						$num_rows = mysqli_num_rows($result);
+
+						echo "$num_rows\n";
+						?>
+					</th>
+			
+					<th>
+						<?php
+						$conn  = mysqli_connect("localhost","root","","my doctor");
+						mysqli_select_db($conn,"my doctor");
+
+						$result = mysqli_query( $conn,"SELECT * FROM patient");
+						$num_rows = mysqli_num_rows($result);
+
+						echo "$num_rows\n";
+						?>
+					</th>
+					<th>
+						
+					</th>
+				</tr>
+					<tr>
+					<td>Total Doctors</td>
+					<td>Total Patients</td>
+					<td>Appointments</td>
+				</tr>
+				
+			</table>	
+			
+		<!--Managment--------------------------------------------------------------------------------------------------------------------------------------->
 			<table class="table1">
 				<tr>
 					<th>Manage Doctors</th>
@@ -43,32 +81,35 @@
 				</tr>
 				<tr>
 					<td><a href="#1">View Doctors</a></td>
-					<td><a href="#1">#1</a></td>
-					<td><a href="#1">#1</a></td>
+					<td><a href="admin/showPatientPopup.php">View Patient</a></td>
+					<td><a href="#1">View Appointments</a></td>
 					
 				</tr>
 				<tr>
 					<td><a href="#2">Update Doctors</a></td>
-					<td><a href="#2">#2</a></td>
-					<td><a href="#2">#2</a></td>
+					<td><a href="#2">Update Patient</a></td>
+					<td><a href="#2">Update Appointments</a></td>
 					
 				</tr>
 				<tr>
 					<td><a href="addDoc.php">Add Doctors</a></td>
-					<td><a href="#3">#3</a></td>
+					<td><a href="#3">Add Patient</a></td>
 					<td><a href="#3">#3</a></td>
 					
 				</tr>
 				<tr>
 					<td><a href="#4">Remove Doctors</a></td>
-					<td><a href="#4">#4</a></td>
-					<td><a href="#4">#4</a></td>
+					<td><a href="#4">Remove Patient</a></td>
+					<td><a href="#4">Remove Appointments</a></td>
 					
 				</tr>
-</table>
+			</table>
+			
+			
 		<br><br><br><br><br><br>
-			
-			
+		
+	
+		
 			
 			
 			

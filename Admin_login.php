@@ -16,11 +16,20 @@
 			<h1>Admin Login</h1>
 			<form>
 					<p>User Name</p>
-					<input type="text" name="" placeholder="Enter User Name">
+					<input type="text" name="AdminName" placeholder="Enter User Name">
 					<p>Password</p>
-					<input type="password" name="" placeholder="Enter Password">
-					<input type="submit" name="" value="Login">
+					<input type="password" name="Password" placeholder="Enter Password">
+					<input type="submit" name="" value="Login" onclick="check(this.form)">
 				</form>
+			<script>
+					function check(form){
+						if(form.AdminName.value =="admin" && form.Password.value==1234){
+							window.open("admindashbord.html");
+						}
+						else {
+							alert("User name or Password incorrect");						}
+					}
+				</script>
 			</div>
 			<br>
 			<br>

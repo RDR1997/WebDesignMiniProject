@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<title>My Doctor Hospitals</title>
-        
+        <script src="/js/services.js"> </script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-
+		<link rel="stylesheet" type="text/css" href="css/services.css">
 	</head>
 	<body  style="background-color:#acf5fb">
  			<!-- navigation bar------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -30,48 +30,84 @@
 
 	
 	<div class="row">
-	<!--<div class="col-md-1">
-	</div>-->
-    <div class="feature-w3l">
-				<div class="container">
-					<h3 class="tittle">Our services <span></span></h3>
-					<div class="feature-grids">
-						<div class="col-md-3 feature-grid">
-							<div class="icons-w3">
-								<i class="fa fa-user-md" aria-hidden="true"></i>
-							</div>
-								<h4>Health Services For Our Region</h4>
-								<span></span>
+	
+		<h1 class="tittle">OUR SERVICES </h1>
+			<table class="table2">
+				<tr>
+					<th>
+						<div class="service1-text1">
+							<h3>Health Services For Our Region</h3>
+						</div>
+						<div class="service1-img">
+								<img src="img/4.jpg" style = "width : 100%; height : 100%; cursor: pointer;" onclick="window.location='index.php'" alt="service1-img" >
+						</div>
+					</th>
+
+					<th>
+						<div class="service1-text">
 								<p>Humanbeat offering a wide range of quality healthcare services for the people of Bangladesh</p>
 						</div>
-						<div class="col-md-3 feature-grid">
-							<div class="icons-w3">
-								<i class="fa fa-medkit" aria-hidden="true"></i>
-							</div>
-								<h4>Find A Consultant</h4>
-								<span></span>
-								<p>Find a specialist health consultant to get better treatment</p>
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<div class="service1-text">
+							<p>Find a specialist health consultant to get better treatment</p>
 						</div>
-						<div class="col-md-3 feature-grid">
-							<div class="icons-w3">
-								<i class="fa fa-ambulance" aria-hidden="true"></i>
-							</div>
-								<h4>Book appointment</h4>
-								<span></span>
-								<p>Book an appointment with your preferred doctor at medical centres all over Bangladesh</p>
+					</th>
+
+					<th>
+					<div class="service1-text1">
+						<h3>Find A Consultant</h3>
+					</div>
+						<div class="service1-img">
+							<img src="img/4.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="service1-img" onclick="window.location='index.php'">
 						</div>
-						<div class="col-md-3 feature-grid">
-							<div class="icons-w3">
-								<i class="fa fa-hospital-o" aria-hidden="true"></i>
-							</div>
-								<h4>Medical professionals</h4>
-								<span></span>
-								<p>A wide variety of doctors are trained to provide special type of health care services</p>
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+					<div class="service1-text1">
+						<h3>Book appointment</h3>
+					</div>
+						<div class="service1-img">
+							<img src="img/4.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="service1-img" onclick="window.location='index.php'">
 						</div>
+					</th>
+
+					<th>
+						<div class="service1-text">
+							<p>Book an appointment with your preferred doctor at medical centres all over Bangladesh</p>
+						</div>
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<div class="service1-text">
+							<p>A wide variety of doctors are trained to provide special type of health care services</p>
+						</div>
+					</th>
+
+					<th>
+					<div class="service1-text1">
+						<h3>Medical professionals</h3>
+					</div>
+						<div class="service1-img">
+							<img src="img/4.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="service1-img" onclick="window.location='index.php'">
+						</div>
+					</th>
+				</tr>
+			</table>
 						<div class="clearfix"></div>
 					</div>
 				</div>
 			</div>
+		
+			
+
 	
     <footer>
 		
@@ -135,6 +171,7 @@
 
         </div>
 
-        </footer>
+		</footer>
+		<script src="/js/services.js"> </script>
 	</body>
 </html>

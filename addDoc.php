@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/form.css">
 	</head>
-	<body style="background-color:#acf5fb">
+	<body >
 	
 	<!-- navigation bar------------------------------------------------------------------------------------------------------------------------------------- -->
 			<ul>

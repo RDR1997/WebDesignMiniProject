@@ -24,7 +24,7 @@
 			<script>
 					function check(form){
 						if(form.AdminName.value =="admin" && form.Password.value==1234){
-							window.open("admindashbord.html");
+							window.open("admindashbord.php");
 						}
 						else {
 							alert("User name or Password incorrect");						}

@@ -99,7 +99,7 @@
 				</tr>
 				<tr>
 					<td><a href="#4">Remove Doctors</a></td>
-					<td><a href="#4">Remove Patient</a></td>
+					<td><a href="admin/deletePatient.php">Remove Patient</a></td>
 					<td><a href="#4">Remove Appointments</a></td>
 					
 				</tr>

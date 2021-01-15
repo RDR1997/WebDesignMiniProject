@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>My Doctor Hospitals</title>
+		<title>Our Services</title>
         <script src="/js/services.js"> </script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/services.css">
@@ -39,13 +39,17 @@
 							<h3>Health Services For Our Region</h3>
 						</div>
 						<div class="service1-img">
-								<img src="img/4.jpg" style = "width : 100%; height : 100%; cursor: pointer;" onclick="window.location='index.php'" alt="service1-img" >
+								<img src="img/4.jpg" style = "width : 100%; height : 50%; cursor: pointer;" onclick="window.location='index.php'" alt="service1-img" >
 						</div>
 					</th>
 
 					<th>
 						<div class="service1-text">
-								<p>Humanbeat offering a wide range of quality healthcare services for the people of Bangladesh</p>
+								<p>My Doctor Hospital offering a wide range of quality healthcare services for the people of Sri Lanka.
+								Regional local health networks provide hospitals and health services across regional South Australia to ensure better, longer and healthier lives for those living in regional areas.
+								<br>
+								These hospitals and health services in local communities work together to offer rural South Australians the best health care solutions available. Some of the services provided include:
+								</p>
 						</div>
 					</th>
 				</tr>
@@ -53,7 +57,8 @@
 				<tr>
 					<th>
 						<div class="service1-text">
-							<p>Find a specialist health consultant to get better treatment</p>
+							<p>
+							ithu maddim Find a specialist health consultant to get better treatment</p>
 						</div>
 					</th>
 
@@ -62,7 +67,7 @@
 						<h3>Find A Consultant</h3>
 					</div>
 						<div class="service1-img">
-							<img src="img/4.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="service1-img" onclick="window.location='index.php'">
+							<img src="img/4.jpg" style = "width : 50%; height : 50%; cursor: pointer;" alt="service1-img" onclick="window.location='index.php'">
 						</div>
 					</th>
 				</tr>

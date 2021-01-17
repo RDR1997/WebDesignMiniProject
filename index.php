@@ -4,7 +4,8 @@
 		<title>Home</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
+		<link rel="stylesheet" type="text/css" href="css/appointment.css">
+
 	</head>
 	<body>
 		
@@ -77,6 +78,30 @@
 			
 			</table>
 			<!-- table1 end------------------------------------------------------------------------------------------------------------------------------------------------->
+			<!-- Appointment part start------------------------------------------------------------------------------------------------------------------------------------------->
+			<div class="app-w3">
+				<h4>Book Your Appointment Now</h4>
+				<div class="app-sub-w3">
+					<form action="/appointment/func.php" method="post">
+						<input type="text" name="patient_name" placeholder="Patient Name" required=""/>
+						<div class="ag-w3">
+                  <a >Departments </a>
+									<select  class="form-control" name="departments" aria-haspopup="true"  aria-expanded="false">
+									<option></option>
+									<option>Cardiology</option>
+									<option>Ophthalmology</option>
+									<option>Neurology</option>
+									<option>Psychology</option>
+									<option>Dermatology</option>
+								</select>
+						</div>
+						<input  id="datepicker" name="date" type="date" value="mm/dd/yyyy" required="" class = "ag-w3">
+						<input type="time" id="timepicker" name="time" class="ag-w3" value="Hrs:Min">
+                        <input type="submit" name="appointment" value="Make An Appointment">
+					</form>
+				</div>
+			</div>
+			<!-- Appointment part end------------------------------------------------------------------------------------------------------------------------------------------->
 			<br><br>
 			
 			<!--timetable------------------------------------------------------------------------------------------------------------------------------------------------ -->	

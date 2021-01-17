@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<title>Show Patient popup</title>
-		<link rel="stylesheet" type="text/css" href="../css/admindashbord.css">
+		<link rel="stylesheet" type="text/css" href="../css/table.css">
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<body>
 

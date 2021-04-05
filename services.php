@@ -67,7 +67,7 @@
 						<h3>Find A Consultant</h3>
 					</div>
 						<div class="service1-img">
-							<img src="img/4.jpg" style = "width : 50%; height : 50%; cursor: pointer;" alt="service1-img" onclick="window.location='index.php'">
+							<img src="img/4.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="service1-img" onclick="window.location='index.php'">
 						</div>
 					</th>
 				</tr>

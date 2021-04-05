@@ -39,7 +39,7 @@
 							<h3>Health Services For Our Region</h3>
 						</div>
 						<div class="service1-img">
-								<img src="img/Region Service.png" style = "width : 100%; height : 50%; cursor: pointer;" onclick="window.location='index.php'" alt="region" >
+								<img src="img/Region Service.png" style = "width : 100%; height : 100%; cursor: pointer;" onclick="window.location='index.php'" alt="region" >
 						</div>
 					</th>
 

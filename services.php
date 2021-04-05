@@ -46,9 +46,13 @@
 					<th>
 						<div class="service1-text">
 								<p>My Doctor Hospital offering a wide range of quality healthcare services for the people of Sri Lanka.
-								Regional local health networks provide hospitals and health services across regional South Australia to ensure better, longer and healthier lives for those living in regional areas.
+								Regional local health networks provide hospitals and health services across regional South 
+								Sri Lanka to ensure better, 
+								longer and healthier lives for those living in regional areas.
 								<br>
-								These hospitals and health services in local communities work together to offer rural South Australians the best health care solutions available. Some of the services provided include:
+								These hospitals and health services in local communities work together to 
+								offer rural South Sri Lankans the best health care solutions available. Some of 
+								the services provided include:
 								</p>
 						</div>
 					</th>
@@ -58,7 +62,13 @@
 					<th>
 						<div class="service1-text">
 							<p>
-							Find a specialist health consultant to get better treatment</p>
+							Find a specialist health consultant to get better treatment. 
+							The attending physician is the leader of team and has responsibility for all decisions made 
+							that affect a person's care, including diagnosis, treatments, and supervision of the remainder of the team.
+							Based on the problem that brought the person to the hospital, the attending physician may 
+							be a hospitalist (a doctor who is trained in internal medicine and works only with people who
+							 are hospitalized), a surgeon, or another specialist physician. In smaller communities, the 
+							 person's primary care doctor may act as the attending physician.</p>
 						</div>
 					</th>
 
@@ -94,7 +104,10 @@
 				<tr>
 					<th>
 						<div class="service1-text">
-							<p>A wide variety of doctors are trained to provide special type of health care services</p>
+							<p>A wide variety of doctors are trained to provide special type of health care services.
+							When people have complex or serious medical problems, the attending physician sometimes requests that specialists evaluate the person and recommend how to best diagnose and treat the problems. 
+							For example, the specialist may be a doctor who is extensively trained in the diagnosis and treatment of disorders of the heart (cardiologist), kidneys (nephrologist), or cancer (oncologist). 
+							In other cases, the specialist may be a surgeon who has particular expertise in one area, such as the brain, spine, and nerves (neurosurgeon) or muscles, bones, and joints (orthopedic surgeon).</p>
 						</div>
 					</th>
 

@@ -84,7 +84,9 @@
 
 					<th>
 						<div class="service1-text">
-							<p>Book an appointment with your preferred doctor at medical centres all over Bangladesh</p>
+							<p>Book an appointment with your preferred doctor at medical centres all over Bangladesh.
+							Easy, Quick and safest way to book your appointments. Find your specialist doctor today. Sign-up with Doc990 now and receive service fee discount of 15% on every echannelling. No Service Charges. 
+							Free Service. 24/7 Customer Service. Easy and Fast Channeling.</p>
 						</div>
 					</th>
 				</tr>

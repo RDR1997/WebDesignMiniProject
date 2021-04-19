@@ -41,7 +41,7 @@
 .docsays{
 	position:relative;
 	text-align:center;
-	color:white;
+		
 }
 
 .textplace{
@@ -49,4 +49,5 @@
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color:#1f2f98;
 }

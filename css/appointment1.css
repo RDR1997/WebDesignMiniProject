@@ -1,5 +1,5 @@
 .app-w3 {
-    background:  #61c2f2;
+    background: #7bd5f5;
     margin-top: 2em;
     margin-bottom: 0.2em;
     padding-bottom: 1.5em;
@@ -10,7 +10,7 @@
     text-align: center;
     margin: 0 auto;
     padding: 1.5em 1em 2.5em;
-    background: #000;
+    background: #1ca7ec;
     border: 1px solid rgba(255, 255, 255, 0.19);
     margin-top: 1em;
 }
@@ -35,7 +35,7 @@ input#timepicker {
 }
 .app-sub-w3 form input[type="submit"] {
     text-transform: uppercase;
-    background: #00a0f0;
+    background: #4adede;
     color: #FFFFFF;
     padding: .75em 0em;
     border: 1px solid #ee4f4f;

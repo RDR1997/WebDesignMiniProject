@@ -88,7 +88,7 @@
 			<!-- table1 end------------------------------------------------------------------------------------------------------------------------------------------------->
 			<!-- Appointment part start------------------------------------------------------------------------------------------------------------------------------------------->
 			<div class="app-w3">
-				<h4>Book Your Appointment Now</h4>
+				<h4>Book Your Appointment Now!</h4>
 				<div class="app-sub-w3">
 					<form action="/appointment/func.php" method="post">
 						<input type="text" name="patient_name" placeholder="Patient Name" required=""/>

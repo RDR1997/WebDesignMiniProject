@@ -8,13 +8,21 @@
 
 	</head>
 	<body>
+		<!--Title-->
+		<table  width="1180px";>
+				<tr style="font-size:90px;text-align:lef;">
+					<td rowspan ="2"><img src="img/logo.png"alt="logo"style="width:160px;height:140px; padding-left: 10px;"></td>
+					<td style="vertical-align: top; color:#1ca7ec;">My Doctor Hospitals</td>
+				</tr>
+				<tr>
+					<td style="font-size:28px;vertical-align: top;color:#9ed1e1;">It is health that is real wealth and not pieces of gold and silver.</td>
+				</tr>
+				
+		</table>
 		
 			<!-- navigation bar------------------------------------------------------------------------------------------------------------------------------------- -->
 			<ul>
-				<img src="img/logo.png"alt="logo"style="width:55px;height:55px; padding-left: 10px;"align="left";>
-				<li class="logo">My Doctor Hospitals
 				
-				</li>
 				
 				<li class="login_dropdown"><!--when mouse point put on Login aren on Nav.bar it will drop down more options-->
 					<button class="dropbtn">Login</button>
@@ -30,7 +38,7 @@
 				<li class="nav"><a href="index.php">Home</a></li>
 			</ul>
 			
-			
+			<br>
 			<!-- slideshow----------------------------------------------------------------------------------------------------------------------------------------------->
 			<div class ="ss-container">
 			
@@ -63,13 +71,13 @@
 			
 			<!-- table1---------------------------------------------------------------------------------------------------------------------------------------------------->
 			<table  align="center"width="100%";>
-				<tr style="font-size:150px;text-align:center;">
+				<tr style="font-size:150px;text-align:center;color:#787ff6;">
 					<td>10</td>
 					<td>#1</td>
 					<td>3</td>
 					<td>200</td>
 				</tr>
-				<tr style="font-size:20px;text-align:center;">
+				<tr style="font-size:20px;text-align:center;color:#1ca7ec;">
 					<td>WELL TRAINED DOCTORS</td>
 					<td>MEDICAL CENTER IN ANUURADHAPURA</td>
 					<td>BRANCHERS</td>
@@ -106,9 +114,9 @@
 			
 			<!--timetable------------------------------------------------------------------------------------------------------------------------------------------------ -->	
 					
-					<table style="height:500px;width:100%;font-size:20px;background-color:rgba(255, 255, 255, .4);text-align:center";>
-						 <caption><h2>Our Doctor's time table</h2></caption>	
-							<tr style="background-color:rgba(255, 255, 255, .4);height:50px">
+					<table style="height:500px;width:100%;font-size:20px;background-color:#61c2f2;text-align:center;border-radius: 20px;color:#1f2f98">
+						 <caption style="color:#787ff6;"><h2>Our Doctor's time table</h2></caption>	
+							<tr style="height:50px;">
 								<th>Doctor</th>
 								<th>Monday</th> 
 								<th>Tuesday</th>
@@ -224,13 +232,13 @@
 			
 			<!-- table2---------------------------------------------------------------------------------------------------------------------------------------------------->
 			<table  align="center"width="100%";>
-				<tr style="font-size:150px;text-align:center;">
+				<tr style="font-size:150px;text-align:center;color:#787ff6;">
 					<td>100</td>
 					<td>50</td>
 					<td>24h</td>
 					
 				</tr>
-				<tr style="font-size:20px;text-align:center;">
+				<tr style="font-size:20px;text-align:center;color:#1ca7ec;">
 					<td>COCHLEAR IMPLANTS</td>
 					<td>IVF BABIES</td>
 					<td>ACTIVE AMBULANCE SERVICE</td>
@@ -244,7 +252,7 @@
 			
 			<!--Doc's quoet------------------------------------------------------------------------------------------------------------------------------------------------ -->	
 			<div class="docsays">
-				<img src="img/index2.png"style="width:100%;height:100%">
+				<img src="img/index2.png"style="width:100%;height:100%;background-color:#1ca7ec;border-radius:25px;">
 
 				<div class="textplace"style="text-align:left;">
 					<p style="font-size:45px;line-height:1.2;">Every Mind Matters<br>

@@ -1,8 +1,9 @@
 .app-w3 {
-    background: rgba(161, 116, 116, 0.54);
+    background:  #61c2f2;
     margin-top: 2em;
     margin-bottom: 0.2em;
     padding-bottom: 1.5em;
+    border-radious: 25px;
 }
 .app-sub-w3 {
     width: 95%;

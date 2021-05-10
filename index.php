@@ -4,7 +4,7 @@
 		<title>Home</title>
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/appointment1.css">
+		<link rel="stylesheet" type="text/css" href="css/appointment.css">
 
 	</head>
 	<body>
@@ -90,7 +90,7 @@
 			<div class="app-w3">
 				<h4 style="color:#1f2f98;">Book Your Appointment Now!</h4>
 				<div class="app-sub-w3">
-					<form action="/appointment/func.php" method="post">
+					<form action="/patient/patient.php" method="post">
 						<input type="text" name="patient_name" placeholder="Patient Name" required=""/>
 						<div class="ag-w3">
                   <a >Departments </a>

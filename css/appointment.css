@@ -13,6 +13,7 @@
     background: #1ca7ec;
     border: 1px solid rgba(255, 255, 255, 0.19);
     margin-top: 1em;
+    border-radius: 25px;
 }
 .app-sub-w3 input[type="text"], .ag-w3 {
     width: 19%;
@@ -26,12 +27,14 @@
     background: #fff;
     display: inline-block;
     text-align: left;
+    border-radius: 25px;
 }
 input#timepicker {
     display: inline-block;
     border-radius: 0px !important;
 	padding: 13px 10px;
     height: inherit;
+    border-radius: 25px;
 }
 .app-sub-w3 form input[type="submit"] {
     text-transform: uppercase;
@@ -51,6 +54,7 @@ input#timepicker {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
+    border-radius: 25px;
 }
 .app-sub-w3 form input[type="submit"]:hover{
 	background:#ee4f4f;
@@ -59,6 +63,7 @@ input#timepicker {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
+    border-radious: 25px;
 }
 .app-w3 h4 {
     font-size: 1.8em;

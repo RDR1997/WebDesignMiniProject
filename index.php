@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/appointment.css">
 
 	</head>
-	<body>s
+	<body>
 		<!--Title-->
 		<table  width="1180px";>
 				<tr style="font-size:90px;text-align:lef;">

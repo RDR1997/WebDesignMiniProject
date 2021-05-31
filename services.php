@@ -168,10 +168,10 @@
                     <div class="row">
                         <div class="links">
                         <h2>Navigate</h2>
-                            <a href="index.html" style="font-size: 12px; line-height: 2em;">home</a><br>
-                            <a href="services.html" style="font-size: 12px; line-height: 2em;">Services</a><br>
-                            <a href="about_us.html" style="font-size: 12px; line-height: 2em;">About Us</a><br>
-                            <a href="contact.html" style="font-size: 12px; line-height: 2em;">Contact Us</a><br>
+                            <a href="index.php" style="font-size: 12px; line-height: 2em;">home</a><br>
+                            <a href="services.php" style="font-size: 12px; line-height: 2em;">Services</a><br>
+                            <a href="about.php" style="font-size: 12px; line-height: 2em;">About Us</a><br>
+                            <a href="contact.php" style="font-size: 12px; line-height: 2em;">Contact Us</a><br>
                             <hr>
                         </div>
                     </div>

@@ -19,3 +19,18 @@
   background-color: #3498DB;
   color: white;
 }
+
+.previous {
+	background-color: #f1f1f1;
+	color: black;
+}
+.aa {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+.aa:hover {
+	background-color: #ddd;
+	color: black;
+}

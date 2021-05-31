@@ -10,7 +10,7 @@
 	<body>
 		<!--Title-->
 		<table  width="1180px";>
-				<tr style="font-size:90px;text-align:lef;">
+				<tr style="font-size:90px;text-align:left;">
 					<td rowspan ="2"><img src="img/logo.png"alt="logo"style="width:160px;height:140px; padding-left: 10px;"></td>
 					<td style="vertical-align: top; color:#1ca7ec;">My Doctor Hospitals</td>
 				</tr>
@@ -28,8 +28,8 @@
 					<button class="dropbtn">Login</button>
 					<div class="login_dropdown-content">
 						<a href="Admin_login.php">Login as Admin</a>
-						<a href="Doctor_login.php">Login as Doctor</a>
-						<a href="Patient_login.php">Login as Patient</a>
+						<a href="doctor_login.php">Login as Doctor</a>
+						<a href="patient_login.php">Login as Patient</a>
 					</div>
 				</li>
 				<li class="nav"><a href="contact.php">Contact</a></li>
@@ -87,28 +87,7 @@
 			</table>
 			<!-- table1 end------------------------------------------------------------------------------------------------------------------------------------------------->
 			<!-- Appointment part start------------------------------------------------------------------------------------------------------------------------------------------->
-			<div class="app-w3">
-				<h4 style="color:#1f2f98;">Book Your Appointment Now!</h4>
-				<div class="app-sub-w3">
-					<form action="/patient/patient.php" method="post">
-						<input type="text" name="patient_name" placeholder="Patient Name" required=""/>
-						<div class="ag-w3">
-                            <a >Departments </a>
-                                <select  class="form-control" name="departments" aria-haspopup="true"  aria-expanded="false" required="">
-                                    <option></option>
-                                    <option>Cardiology</option>
-                                    <option>Ophthalmology</option>
-                                    <option>Neurology</option>
-                                    <option>Psychology</option>
-                                    <option>Dermatology</option>
-                                </select>
-						</div>
-						<input  id="datepicker" name="date" type="date" value="mm/dd/yyyy" required="" class = "ag-w3">
-						<input type="time" id="timepicker" name="time" class="ag-w3" value="Hrs:Min" required="">
-                        <input type="submit" name="appointment" value="Make An Appointment">
-					</form>
-				</div>
-			</div>
+
 			<!-- Appointment part end------------------------------------------------------------------------------------------------------------------------------------------->
 			<br><br>
 			
@@ -306,10 +285,10 @@
 						<div class="row">
 							<div class="links">
 							<h2>Navigate</h2>
-								<a href="index.html" style="font-size: 12px; line-height: 2em;">home</a><br>
-								<a href="services.html" style="font-size: 12px; line-height: 2em;">Services</a><br>
-								<a href="about_us.html" style="font-size: 12px; line-height: 2em;">About Us</a><br>
-								<a href="contact.html" style="font-size: 12px; line-height: 2em;">Contact Us</a><br>
+								<a href="index.php" style="font-size: 12px; line-height: 2em;">home</a><br>
+								<a href="services.php" style="font-size: 12px; line-height: 2em;">Services</a><br>
+								<a href="about.php" style="font-size: 12px; line-height: 2em;">About Us</a><br>
+								<a href="contact.php" style="font-size: 12px; line-height: 2em;">Contact Us</a><br>
 								<hr>
 							</div>
 						</div>

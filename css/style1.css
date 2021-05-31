@@ -1,5 +1,5 @@
 
-/*For Background image*/
+/*For Background img*/
 body{
 	margin:0;
 	padding:0;
@@ -17,7 +17,7 @@ body{
 	top: 50%;
 	left: 37%;
 	position: absolute;
-	transform :translateX(-50%,-50%);
+	/*transform :translateX(50%);*/
 	box-sizing: border-box;
 	padding:70px;
 
@@ -42,13 +42,13 @@ body{
 /* for log in p */
 .loginbox p{
 
-	margin: 1;
-	padding:none;
+	margin: 1px;
+	/*padding: 1;*/
 	font-weight: bold;
 }
 /* for log in input boxes*/
 .loginbox input{
-	margin-bottom: 8px;
+	margin-bottom: 16px;
 	width: 200px;
 }
 /* for log in boxes style*/
@@ -58,7 +58,7 @@ body{
 	border-bottom: 1px solid #fff;
 	background: transparent;
 	outline: none;
-	height: 50;
+	/*height: 50px;*/
 	color: #fff;
 	font-size: 15px;
 
@@ -96,4 +96,26 @@ body{
 	padding:30px;
 	background:	#cdf9ff;}
 
+/*Errors*/
+.error {
+	color: red;
+	text-align: center;
+}
+
+/*Buttons*/
+.button {
+	border: none;
+	outline: none;
+	font-size: 22px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	width: 200px;
+	cursor: pointer;
+}
+
+.button:hover {background-color: blue}
+
+.button:active {
+	background-color: blue;
+	transform: translateY(4px);
 }

@@ -1,16 +1,16 @@
 .split{
-	height: 100%;
+	height: 80%;
 	width: 20%;
 	position: absolute;
-	z-index: -1;
+	/*z-index: -1;*/
 	top: 0;
 	overflow-x: hidden;
 	padding-top: 20%;
 }
 
 .left{
-	top:8px;
-	left: 1;
+	top:70px;
+	/*left: 1px;*/
 	background-color: #00134d;
 	
 }
@@ -73,4 +73,112 @@
 .table3 td{
 	font-size:30px;
 	text-align:center;
+}
+/*loginbox*/
+.loginbox {
+	width: 375px;
+	height: 450px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 37%;
+	position: absolute;
+	/*transform :translateX(50%);*/
+	box-sizing: border-box;
+	padding: 70px;
+	margin-top: -150px;
+}
+
+/*for the avatar logo*/
+.avatar{
+	width:75px;
+	height:75px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(88% - 50%);
+}
+/* for log in p */
+.loginbox p{
+
+	margin: 1px;
+	/*padding: 1;*/
+	font-weight: bold;
+}
+/* for log in input boxes*/
+.loginbox input{
+	margin-bottom: 16px;
+	width: 200px;
+}
+/* for log in boxes style*/
+.loginbox input[type="text"],[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	/*height: 50px;*/
+	color: #fff;
+	font-size: 15px;
+
+
+}
+/* for Sumbit buttan*/
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	font-size: 22px;
+	border-radius: 5px;
+
+}
+/* for submit butten effects */
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #1034A6;
+}
+/*for the hyper link*/
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	color: darkgray;
+
+}
+/*for the hyper link style*/
+.loginbox a:hover
+{
+	color: #0080FF;
+}
+
+/*Header*/
+.header{
+	padding:30px;
+	background:	#cdf9ff;}
+
+/*Errors*/
+.error {
+	color: red;
+	text-align: center;
+}
+.success {
+	color: green;
+	text-align: center;
+}
+
+/*Buttons*/
+.button {
+	border: none;
+	outline: none;
+	font-size: 22px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	width: 200px;
+	cursor: pointer;
+}
+
+.button:hover {background-color: blue}
+
+.button:active {
+	background-color: blue;
+	transform: translateY(4px);
 }

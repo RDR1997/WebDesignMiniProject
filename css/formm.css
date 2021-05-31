@@ -1,0 +1,59 @@
+.formbox {
+    margin: auto;
+    width: 37.5%;
+    height: 60%;
+    padding: 10px;
+    background-color: white;
+}
+
+.topic{
+    text-align:center;
+    font-size:30px;
+}
+
+input{
+    font-size:18px;
+    width: 100%;
+}
+
+hr.new1{
+    border-top:2px solid blue;
+}
+
+.details{
+    text-align:left;
+    font-size:20px;
+}
+
+/*Buttons*/
+.button {
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.button:hover {background-color: blue}
+
+.button:active {
+    background-color: blue;
+    transform: translateY(4px);
+}
+.error {
+    color: red;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    size: 25px;
+    height: 100px;
+}

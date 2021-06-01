@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 27, 2021 at 05:38 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.0
+-- Generation Time: Jun 01, 2021 at 08:50 PM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -62,7 +62,8 @@ CREATE TABLE `appointment` (
 
 INSERT INTO `appointment` (`appointment_ID`, `date`, `time`, `doctor_ID`, `patient_ID`, `description`) VALUES
 (10, '2021-05-28', '20:17:00', 3, 1, 'kkkkkkkkkkkk'),
-(11, '2021-05-20', '20:37:00', 11, 18, 'llllllllllllllll');
+(11, '2021-05-20', '20:37:00', 11, 18, 'llllllllllllllll'),
+(12, '2021-05-27', '10:46:00', 1, 1, 'sdkvmn djvn cj');
 
 -- --------------------------------------------------------
 
@@ -121,12 +122,36 @@ CREATE TABLE `patient` (
 --
 
 INSERT INTO `patient` (`patient_ID`, `first_name`, `last_name`, `gender`, `DOB`, `address`, `description`, `blood_group`, `username`, `password`, `contact_no`, `Email`) VALUES
-(1, 'Benadict', 'suthan', 'male', '2021-05-13', 'No.445, Valluvarpuram, Visuvamadu.', 'vvvvvvv', 'A+', 'admin', '123', '0771942636', 'amalathassuthans@gmail.com'),
+(1, 'Benadict', 'suthan', 'male', '2021-05-13', 'No.445, Valluvarpuram, Visuvamadu.', 'vvvvvvv', 'A+', 'admin', '1234', '0771942636', 'amalathassuthans@gmail.com'),
 (13, 'Benadic', 'sutha', 'mal', '2021-05-24', 'No.445, Valluvarpuram, ', 'vvvvvv', 'A+', 'llllll', '12345', '0771942639', 'amalathassuthans@gmail.co'),
 (15, 'Suthan', 'Amalathas', 'male', '2021-05-03', 'No.445, Valluvarpuram, Visuvamadu.', 'qqqqqqqqqqq', 'AB-', 's007', '9999', '0704566278', 'amalathassuthan@ieee.org'),
 (18, 'llllll', 'kkkkkkk', 'female', '2021-06-05', '55555', '99999999999', 'AB-', 'mm01', '999', '0704566278', 'amalathassuthan@ieee.org'),
 (19, 'Suthan', 'Amalathas', '', '2021-05-11', 'No.445, Valluvarpuram, Visuvamadu.', 'vvvvvvv', 'A+', 'jjjjj', '0000', '0704566278', 'amalathassuthan@ieee.org'),
 (20, 'Suthan', 'Amalathas', 'female', '2021-05-20', 'No.445, Valluvarpuram, Visuvamadu.', '222222222', 'A+', 'mm02', 'mm02', '0704566278', 'amalathassuthan@ieee.org');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `treatment_history`
+--
+
+CREATE TABLE `treatment_history` (
+  `patient_ID` int(10) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `treatment` varchar(500) NOT NULL,
+  `doctor_notes` varchar(1000) DEFAULT NULL,
+  `date_time` datetime(6) NOT NULL,
+  `doctor_ID` int(10) NOT NULL,
+  `d_first_name` varchar(100) NOT NULL,
+  `d_last_name` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `treatment_history`
+--
+
+INSERT INTO `treatment_history` (`patient_ID`, `username`, `treatment`, `doctor_notes`, `date_time`, `doctor_ID`, `d_first_name`, `d_last_name`) VALUES
+(1, 'admin', 'abc treatment', 'X-ray taken. weekly checkup recommended', '2021-06-02 10:00:00.000000', 1, 'abc', 'dsk');
 
 --
 -- Indexes for dumped tables
@@ -178,7 +203,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `appointment`
 --
 ALTER TABLE `appointment`
-  MODIFY `appointment_ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `appointment_ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `doctor`

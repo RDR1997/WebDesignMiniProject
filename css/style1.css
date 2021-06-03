@@ -14,7 +14,7 @@ body{
 	height:450px;
 	background: #000;
 	color: #fff;
-	top: 50%;
+	top: 62%;
 	left: 37%;
 	position: absolute;
 	/*transform :translateX(50%);*/
@@ -48,8 +48,8 @@ body{
 }
 /* for log in input boxes*/
 .loginbox input{
-	margin-bottom: 16px;
-	width: 200px;
+	margin-bottom: 20px;
+	width: 235px;
 }
 /* for log in boxes style*/
 .loginbox input[type="text"],[type="password"]

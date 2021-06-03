@@ -17,7 +17,7 @@ include "connection.php";
     </div>
 </header>
 <div class="loginbox">
-    <img src="img/admin logo1.jpg" class="avatar">
+    <img src="img/doc logo.jpg" class="avatar">
     <h1>Doctor Login</h1>
     <?php
     if(isset($_POST["submit"]))

@@ -40,7 +40,7 @@ if(!isset($_SESSION["ausername"]))
 <div class="split left">
     <div class="centered" >
         <img src="img/img_avatar2.png" alt="Avatar woman">
-        <h2>Jane Flex</h2>
+        <h2><?php echo $_SESSION['ausername']; ?></h2>
         <p style="cursor: pointer"> <a href="a_changepass.php">Change Password </a></p>
         <p>Some text.</p>
         <p>Some text.</p>
@@ -110,21 +110,21 @@ if(!isset($_SESSION["ausername"]))
 
     </tr>
     <tr>
-        <td><a href="#2">Update Doctors</a></td>
-        <td><a href="#2">Update Patient</a></td>
+        <td><a href="aupdate_doctor.php">Update Doctors</a></td>
+        <td><a href="aupdate_patient.php">Update Patient</a></td>
         <td><a href="#2">Update Appointments</a></td>
 
     </tr>
     <tr>
         <td><a href="add_Doctor.php">Add Doctors</a></td>
         <td><a href="add_patient.php">Add Patient</a></td>
-        <td><a href="#3">#3</a></td>
+        <td><a href="delete_Appointment.php">Remove Appointments</a></td>
 
     </tr>
     <tr>
         <td><a href="delete_Doctor.php">Remove Doctors</a></td>
         <td><a href="delete_Patient.php">Remove Patient</a></td>
-        <td><a href="delete_Appointment.php">Remove Appointments</a></td>
+        
 
     </tr>
 </table>

@@ -8,7 +8,7 @@ if(!isset($_SESSION["ausername"]))
 <!DOCTYPE html>
 <html>
 <head>
-    <title>UPDATE DOCTOR</title>
+    <title>UPDATE APPOINTMENT</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/formm.css">
 </head>
@@ -36,18 +36,14 @@ if(!isset($_SESSION["ausername"]))
     <?php
     if(isset($_POST["submit"]))
     {
-        $d_ID = mysqli_real_escape_string($db,$_REQUEST['d_ID']);
-        $d_first_name = mysqli_real_escape_string($db,$_REQUEST['d_first_name']);
-        $d_last_name = mysqli_real_escape_string($db,$_REQUEST['d_last_name']);
-        $NIC = mysqli_real_escape_string($db,$_REQUEST['NIC']);
-        $gender = mysqli_real_escape_string($db,$_REQUEST['gender']);
-        $address = mysqli_real_escape_string($db,$_REQUEST['address']);
-        $speciality = mysqli_real_escape_string($db,$_REQUEST['speciality']);
-        $category = mysqli_real_escape_string($db,$_REQUEST['category']);
-        $contact_no = mysqli_real_escape_string($db,$_REQUEST['contact_no']);
-        $Email = mysqli_real_escape_string($db,$_REQUEST['Email']);
+        $appointment_ID  = mysqli_real_escape_string($db,$_REQUEST['appointment_ID']);
+        $date = mysqli_real_escape_string($db,$_REQUEST['date']);
+        $time = mysqli_real_escape_string($db,$_REQUEST['time']);
+        $doctor_ID = mysqli_real_escape_string($db,$_REQUEST['doctor_ID']);
+        $patient_ID = mysqli_real_escape_string($db,$_REQUEST['patient_ID']);
+        $description = mysqli_real_escape_string($db,$_REQUEST['description']);
 // Attempt insert query execution
-        $sql = "UPDATE doctor SET d_first_name = '$d_first_name', d_last_name = '$d_last_name', NIC = '$NIC', gender = '$gender', address = '$address', speciality = '$speciality', category = '$category', contact_no = '$contact_no', Email = '$Email' WHERE doctor.doctor_ID = '$d_ID'";
+        $sql = "UPDATE appointment SET date = '$date', time = '$time', doctor_ID = '$doctor_ID', patient_ID = '$patient_ID', description = '$description' WHERE appointment.appointment_ID = '$appointment_ID'";
         if(mysqli_query($db,$sql)){
             echo "<p class='success'>Records added successfully</p>";
             header('Location: admindashbord.php');
@@ -55,60 +51,25 @@ if(!isset($_SESSION["ausername"]))
         } else{
             echo "<p class='error'>ERROR: Could not able to execute </p>";
         }
-        /*$stmt = $this->con->prepare("INSERT INTO doctor(d_first_name,d_last_name,NIC,gender,address,speciality,category,username,password,contact_no,Email)
-                                    VALUES (?,?,?,?,?,?,?,?,?,?,?)");
-        $stmt->bind_param("sssssssssss", $fname, $lname, $NIC, $quantity, $gender, $address, $speciality, $category, $username, $password, $contact_no, $email);
-        $stmt->execute();*/
-        /*$sql="insert into doctor(d_first_name,d_last_name,NIC,gender,address,speciality,category,username,password,contact_no,Email) values ('{$_POST["fname"]}','{$_POST["lname"]}','{$_POST["NIC"]}','{$_POST["gender"]}','{$_POST["gender"]}','{$_POST["address"]}','{$_POST["speciality"]}','{$_POST["category"]}','{$_POST["username"]}','{$_POST["password"]}','{$_POST["contact_no"]}','{$_POST["email"]}')";
-        $res=$db->query($sql);
-        print_r($res);
-        echo "<p class='success'>Doctor Registration Success</p>";*/
     }
     ?>
-    <form action="update_doctor.php" method="post"  >
+    <form action="update_appointment.php" method="post">
         <div class="topic">Update Details!</div>
         <br>
         <hr class="new1">
         <div class="details">
-            <label ="first_name">Doctor ID:</label><br>
-            <input type="text" id="d_ID" name="d_ID" size="59" required><br>
-            <label ="first_name">First name:</label><br>
-            <input type="text" id="d_first_name" name="d_first_name" size="59" required><br>
-            <label ="last_name">Last name:</label><br>
-            <input type="text" id="d_last_name" name="d_last_name" size="59" required><br>
-            <label ="DOB">NIC NO.:</label><br>
-            <input type="text" id="NIC" name="NIC" size="59" required>
-
-            <p>Gender:-----<input style="width: auto" type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label>
-                <input style="width: auto" type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>
-            </p>
-
-            <hr class="new1"">
-            <label ="address">Address:</label><br>
-            <input type="text" id="address" name="address" size="59" required><br>
-            <label ="speciality">Speciality:</label><br>
-            <input type="text" id="speciality" name="speciality" size="59" required><br>
-            <label ="category">Category:</label><br>
-            <input type="text" list="cars" name="category" />
-            <datalist id="cars">
-                <option value="Pediatricians">Pediatricians</option>
-                <option value="Allergists">Allergists</option>
-                <option value="Dermatologists">Dermatologists</option>
-                <option value="Ophthalmologists">Ophthalmologists</option>
-                <option value="Obstetrician">Obstetrician</option>
-                <option value="Cardiologists">Cardiologists</option>
-                <option value="Endocrinologists">Endocrinologists</option>
-                <option value="other">other</option>
-            </datalist><br>
-            <label ="contact_no">Phone number:</label><br>
-            <input type="text" id="contact_no" name="contact_no" size="59" required><br>
-            <label ="email">E-mail:</label><br>
-            <input type="email" id="Email" name="Email" size="59" required><br>
-
-
-
+            <label ="appointment_ID">Appointment_ID:</label><br>
+            <input type="text" id="appointment_ID" name="appointment_ID" size="59" required><br>
+            <label ="date">Date:</label><br>
+            <input type="date" id="date" name="date" size="59" required><br>
+            <label ="time">Time:</label><br>
+            <input type="time" id="time" name="time" size="59" required><br>
+            <label ="doctor_ID ">Doctor ID :</label><br>
+            <input type="text" id="doctor_ID " name="doctor_ID " size="59" required><br>
+            <label ="patient_ID ">Patient ID :</label><br>
+            <input type="text" id="patient_ID " name="patient_ID " size="59" required><br>
+            <label ="description">Description:</label><br>
+            <input type="text" id="description" name="description" size="59" required><br>
             <hr class="new1">
             <br>
             <div style="text-align:center" >

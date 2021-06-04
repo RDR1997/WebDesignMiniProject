@@ -110,21 +110,19 @@ if(!isset($_SESSION["ausername"]))
 
     </tr>
     <tr>
-        <td><a href="aupdate_doctor.php">Update Doctors</a></td>
-        <td><a href="aupdate_patient.php">Update Patient</a></td>
-        <td><a href="#2">Update Appointments</a></td>
+        <td><a href="update_doctor.php">Update Doctors</a></td>
+        <td><a href="add_patient.php">Add Patient</a></td>
+        <td><a href="update_appointment.php">Update Appointments</a></td>
 
     </tr>
     <tr>
         <td><a href="add_Doctor.php">Add Doctors</a></td>
-        <td><a href="add_patient.php">Add Patient</a></td>
+        <td><a href="delete_Patient.php">Remove Patient</a></td>
         <td><a href="delete_Appointment.php">Remove Appointments</a></td>
-
     </tr>
     <tr>
         <td><a href="delete_Doctor.php">Remove Doctors</a></td>
-        <td><a href="delete_Patient.php">Remove Patient</a></td>
-        
+
 
     </tr>
 </table>

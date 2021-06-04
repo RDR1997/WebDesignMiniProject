@@ -63,13 +63,8 @@ if(!isset($_SESSION["username"]))
                                 <th>Doctor ID</th>
                                 <th>Doctor F_name</th>
                                 <th>Doctor L_name</th>
-                                <th>NIC</th>
-                                <th>Gender</th>
-                                <th>Address</th>
                                 <th>Speciality</th>
                                 <th>Category</th>
-                                <th>Username</th>
-                                <th>Password</th>
                                 <th>Contact Number</td>
                                 <th>Email</td>
                             </tr>
@@ -83,13 +78,8 @@ if(!isset($_SESSION["username"]))
                     echo "<td>{$row["doctor_ID"]}</td>";
                     echo "<td> Dr. {$row["d_first_name"]}</td>";
                     echo "<td>{$row["d_last_name"]}</td>";
-                    echo "<td>{$row["NIC"]}</td>";
-                    echo "<td>{$row["gender"]}</td>";
-                    echo "<td>{$row["address"]}</td>";
                     echo "<td>{$row["speciality"]}</td>";
                     echo "<td>{$row["category"]}</td>";
-                    echo "<td>{$row["username"]}</td>";
-                    echo "<td>{$row["password"]}</td>";
                     echo "<td>{$row["contact_no"]}</td>";
                     echo "<td>{$row["Email"]}</td>";
                     echo "</tr>";

@@ -43,7 +43,6 @@ if(!isset($_SESSION["username"]))
             <p> <a href="d_view_appointments.php">View Appointments </a></p>
             <p> <a href="p_changepass.php">View treatment history </a></p>
             <p> <a href="p_view_doctor.php">Add treatment history</a></p>
-            <p> <a href="update_doctor.php">Update Doctor details </a></p>
             <p> <a href="d_changepass.php">Change Password </a></p>
         </h4>
     </div>

@@ -52,17 +52,19 @@ if(!isset($_SESSION["ausername"]))
             <table>
                 <tr><td><button class="side_nav" name="a_add_doctor"><a href="add_Doctor.php">Add Doctor</a></button></td></tr>
                 <tr><td><button class="side_nav" name="a_view_doctor"><a href="view_doctor.php">View Doctor Details</button></td></tr>
+                <tr><td><button class="side_nav" name="a_update_doc"><a href="update_doctor.php">Update Doctor Details</button></td></tr>
                 <tr><td><button class="side_nav" name="a_delete_doctor"><a href="delete_Doctor.php">Delete Doctor</button></td><tr>
                 <tr><td><button class="side_nav" name="a_view_patient"><a href="view_patient.php">View Patients Details</a></button></td></tr>
-                <tr><td><button class="side_nav" name="a_delete_doctor">Delete Patient</a></button></td><tr>
+                <tr><td><button class="side_nav" name="a_delete_doctor"><a href="delete_Patient.php">Delete Patient</a></button></td><tr>
                 <tr><td><button class="side_nav" name="a_view_appointment"><a href="view_appointments.php">View Doctor Appointments</a></button></td></tr>
+                <tr><td><button class="side_nav" name="a_view_appointment">Delete Appointments</a></button></td></tr>
                 <!--<tr><td><button class="side_nav" name="search_doctor"><a href="search_doctor.php">Search Doctors</a></button></td></tr>-->
             </table>
     </div>
     <div class="column right1">
         <table>
             <tr>
-                <td><label>Patient ID</label></td>
+                <td><label>Appointment ID</label></td>
                 <td><input type="search" name="appointment_ID" width="100px;"></td>
                 <td><button type="submit" name="search" class="search"> Search </button>
                 <td><button type="submit" name="delete" class="delete"> Delete </button>
@@ -72,18 +74,15 @@ if(!isset($_SESSION["ausername"]))
 
         if (isset($_POST['search'])) {
             $appointment_ID = $_POST['appointment_ID'];
-            $sql = "SELECT patient.first_name, patient.last_name, doctor.d_first_name, doctor.d_last_name, appointment.date, 
-                    appointment.time, appointment.description FROM appointment INNER JOIN patient ON patient.patient_ID = 
-                    appointment.patient_ID INNER JOIN doctor ON doctor.doctor_ID = appointment.doctor_ID ORDER BY appointment.date";
+            $sql = "SELECT * from appointment";
             $res = $db->query($sql);
             if ($res->num_rows > 0) {
                 echo "<table width='100%' border='1px solid #000' class='table2'>
 							<tr>
 							    <th>No.</th>
-                                <th>Patient F_name</th>
-                                <th>Patient L_name</th>
-                                <th>DoC F_name</th>
-                                <th>DoC L_name</th>
+							    <th>Appointment ID</th>
+                                <th>Patient ID</th>
+                                <th>Doctor ID</th>
                                 <th>DATE</th>
                                 <th>TIME</th>
                                 <th>Description</th>
@@ -94,10 +93,9 @@ if(!isset($_SESSION["ausername"]))
                     $i++;
                     echo "<tr>";
                     echo "<td>{$i}</td>";
-                    echo "<td>{$row["first_name"]}</td>";
-                    echo "<td>{$row["last_name"]}</td>";
-                    echo "<td>{$row["d_first_name"]}</td>";
-                    echo "<td>{$row["d_last_name"]}</td>";
+                    echo "<td>{$row["appointment_ID"]}</td>";
+                    echo "<td>{$row["patient_ID"]}</td>";
+                    echo "<td>{$row["doctor_ID"]}</td>";
                     echo "<td>{$row["date"]}</td>";
                     echo "<td>{$row["time"]}</td>";
                     echo "<td>{$row["description"]}</td>";

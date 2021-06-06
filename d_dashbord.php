@@ -42,7 +42,7 @@ if(!isset($_SESSION["username"]))
         <h4 style="cursor: pointer; width: max-content;text-align: left">
             <p> <a href="d_view_appointments.php">View Appointments </a></p>
             <p> <a href="d_treatment_history.php">View treatment history </a></p>
-            <p> <a href="p_view_doctor.php">Add treatment history</a></p>
+            <p> <a href="#3">Add treatment history</a></p>
             <p> <a href="d_changepass.php">Change Password </a></p>
         </h4>
     </div>

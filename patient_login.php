@@ -47,6 +47,8 @@ include "connection.php";
         <label>Password</label>
         <input type="password" name="dpass" required>
         <button type="submit" class="button" name="submit">Login Now</button>
+		<br><br>
+		Don't have an account?<br><a href="patient_reg.php" style="font-size:15px;">Sign Up</a></p>
     </form>
 </div>
 <br>

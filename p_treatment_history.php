@@ -39,8 +39,8 @@ if(!isset($_SESSION["username"]))
     <?php
 
 
-    echo "<center><h3>Welcome! </h3>";
-    echo '<h3>' . print_r($_SESSION["username"], TRUE) . '</h3>';
+    echo "<center><h3>Your Treatment History</h3>";
+    //echo '<h3>' . print_r($_SESSION["username"], TRUE) . '</h3>';
     ?>
         <?php
         $sql="SELECT * FROM treatment_history where username = '{$_SESSION["username"]}' ";

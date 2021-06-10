@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: #99b3ff;
+	overflow-x:hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0066ff;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #003380;
+}
+
+form{
+	display:block;
+	width:50%;
+	padding-bottom:50px;
+}
+input{
+	width:100%;
+	border:1px solid #ccc;
+	border-radius:4px;
+	resize:vertical;
+	height:35px;
+}
+label{
+	float:left;
+}
+.submit{
+	width:99%;
+	background-color:#0066ff;
+	height: 50px;
+	border-radius:4px;
+	box-sizing: border-box;
+	color:#fff;
+	font-size:20px;
+}
+.submit:hover{
+	background-color:#003380;
+}
+select{
+	width:100%;
+	border:1px solid #ccc;
+	border-radius:4px;
+	resize:vertical;
+	height:35px;
+}
+/*css related to footer*/
+.column5 {
+  float: left;
+  width: 20%;
+
+}
+.column6 {
+  float: left;
+  width: 40%;
+}
+.column7 {
+  float: left;
+  width: 40%;
+  text-align:left;
+  height:80%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table tr td{
+	padding-left:50px;
+}
+footer{
+	width: 100%;
+	background-color: #00134d;
+	color:#99abb8;
+	padding: 50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif !important;
+	font-style: normal !important;
+	margin-left:-15px;
+}
+.fa{
+        padding: 5px;
+        font-size: 30px;
+}
+
+.fa:hover {
+	color:#000;
+	text-decoration:none;
+}
+a:link {
+	background-color: transparent;
+	text-decoration: none;
+}
+a{
+	  color: #99abb8;
+}
+/*css related to footer end*/

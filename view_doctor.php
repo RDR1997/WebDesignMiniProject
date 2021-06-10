@@ -49,18 +49,6 @@ if(!isset($_SESSION["ausername"]))
                 <div class="aa">
                     <a href="admindashbord.php" class="previous">&laquo; Previous</a>
                 </div>
-				<table>
-					<tr><td><button class="side_nav" name="a_add_doctor"><a href="add_Doctor.php">Add Doctor</a></button></td></tr>
-					<tr><td><button class="side_nav" name="a_view_doctor">View Doctor Details</button></td></tr>
-                    <tr><td><button class="side_nav" name="a_update_doc"><a href="update_doctor.php">Update Doctor Details</button></td></tr>
-                    <tr><td><button class="side_nav" name="a_delete_doctor"><a href="delete_Doctor.php">Delete Doctor</button></td><tr>
-					<tr><td><button class="side_nav" name="a_view_patient"><a href="view_patient.php">View Patients Details</a></button></td></tr>
-					<tr><td><button class="side_nav" name="a_delete_doctor"><a href="delete_Patient.php">Delete Patient</a></button></td><tr>
-					<tr><td><button class="side_nav" name="a_view_appointment"><a href="view_appointments.php">View Doctor Appointments</a></button></td></tr>
-                    <tr><td><button class="side_nav" name="a_view_appointment"><a href="delete_Appointment.php">Delete Appointments</a></button></td></tr>
-                    <!--<tr><td><button class="side_nav" name="search_doctor"><a href="search_doctor.php">Search Doctors</a></button></td></tr>-->
-				</table>
-			</div>
 			<div class="column right1">
 				<center><h3>Doctors Enrolled in the System</h3>
                     <?php

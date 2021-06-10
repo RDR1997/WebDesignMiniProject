@@ -67,7 +67,7 @@ if(!isset($_SESSION["ausername"]))
                 <td><label>Patient ID</label></td>
                 <td><input type="search" name="patient_ID" width="100px;"></td>
                 <td><button type="submit" name="search" class="search"> Search </button>
-                <td><button type="submit" name="delete" class="delete"> Delete </button>
+                <td><button type="submit" name="delete" class="delete"> Show All Patients </button>
             </tr>
         </table>
         <?php

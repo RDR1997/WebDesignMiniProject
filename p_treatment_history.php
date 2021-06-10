@@ -32,6 +32,10 @@ if(!isset($_SESSION["username"]))
 
 <!--counters--------------------------------------------------------------------------------------------------------------------------------------->
 <div >
+    <br>
+    <div class="aa">
+        <a href="p_dashbord.php" class="previous">&laquo; Previous</a>
+    </div>
     <?php
 
 

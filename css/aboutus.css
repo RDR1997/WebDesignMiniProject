@@ -1,5 +1,5 @@
 
-.container{
+/*.container{
   height:545px;
   width: 45%;
   background: rgba(0, 0, 0, 0.6);
@@ -12,13 +12,24 @@
 
 .container p{
   color: white;
-  margin-top: 60px;
+  margin-top: 0px;
   font-size:large;
   text-align: justify;
 
+}*/
+.column_left{
+	margin-top:50px;
+	padding-left:20px;
+	width:50%;
+	float:left;
 }
-
-.btn{
+.column_right{
+	margin-top:50px;
+	padding-right:20px;
+	width:40%;
+	float:left;
+}
+/*.btn{
 
   background: no-repeat;
   outline: none;
@@ -35,4 +46,4 @@
 .btn:hover{
   background: white;
   color: black;
-}
+}*/

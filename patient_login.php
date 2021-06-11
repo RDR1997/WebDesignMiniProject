@@ -12,7 +12,7 @@ include "connection.php";
 <body>
 <header>
     <div class="header">
-        <img src="img/logo.jpg"alt="logo"style="width:150px;height:150px;font-size:30px ">
+        <img src="img/logo.png"alt="logo"style="width:150px;height:150px;font-size:30px ">
         <a style="float:right;padding-right:450px;padding-top:30px;font-size:50px;">Rajarata Medical Center</a>
     </div>
 </header>

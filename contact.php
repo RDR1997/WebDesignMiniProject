@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>My Doctor Hospitals</title>
+		<title>Contact</title>
 		<link rel="stylesheet" href="css/contact.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -9,7 +9,7 @@
 <!-- navigation bar------------------------------------------------------------------------------------------------------------------------------------- -->
 			<ul>
 				<img src="img/logo.png"alt="logo"style="width:55px;height:55px; padding-left: 10px;"align="left";>
-				<li class="logo">My Doctor Hospitals
+				<li class="logo">Rajarata Hospitals
 				
 				</li>
 				
@@ -58,7 +58,7 @@
 			<table>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/7.png" style="height: 30px; width: 30px;"></i></td>
-						<td>My Doctor Hospitals(pvt)Ltd<br>Anuradhapura<br>Sri Lanka</td>
+						<td>Rajarata Hospitals(pvt)Ltd<br>Anuradhapura<br>Sri Lanka</td>
 					</tr>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/6.png" style="height: 30px; width: 30px;"></i></td>
@@ -66,11 +66,11 @@
 					</tr>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/4.png" style="height: 30px; width: 30px;"></i></td>
-						<td><a href="#">www.mydoctorhospitals.abc.lk</a></td>
+						<td><a href="#">www.rajaratahospitals.abc.lk</a></td>
 					</tr>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/1.png" style="height: 30px; width: 30px;"></i></td>
-						<td><a href="#">my_doc@abc.lk</a></td>
+						<td><a href="#">rajaratah@abc.lk</a></td>
 					<tr>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/3.png" style="height: 30px; width: 30px;"></i></td>
@@ -88,7 +88,7 @@
 		<div class="row">
 			
 			<div class="column5">
-				<h1>My Doctor Hospitals(pvt)Ltd</h1>
+				<h1>Rajarata Hospitals(pvt)Ltd</h1>
 			</div>
 
 			<div class="column6">
@@ -96,7 +96,7 @@
 				<table>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/7.png" style="height: 30px; width: 30px;"></i></td>
-						<td>My Doctor Hospitals(pvt)Ltd<br>Anuradhapura<br>Sri Lanka</td>
+						<td>Rajarata Hospitals(pvt)Ltd<br>Anuradhapura<br>Sri Lanka</td>
 					</tr>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/6.png" style="height: 30px; width: 30px;"></i></td>
@@ -104,11 +104,11 @@
 					</tr>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/4.png" style="height: 30px; width: 30px;"></i></td>
-						<td><a href="#">www.mydoctorhospitals.abc.lk</a></td>
+						<td><a href="#">www.rajaratahospitals.abc.lk</a></td>
 					</tr>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/1.png" style="height: 30px; width: 30px;"></i></td>
-						<td><a href="#">my_doc@abc.lk</a></td>
+						<td><a href="#">rajaratah@abc.lk</a></td>
 					<tr>
 					<tr style="line-height: 1em;">
 						<td><i class="fa"><img src="icon/3.png" style="height: 30px; width: 30px;"></i></td>

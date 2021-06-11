@@ -10,7 +10,7 @@
  			<!-- navigation bar------------------------------------------------------------------------------------------------------------------------------------- -->
 			<ul>
 				<img src="img/logo.png"alt="logo"style="width:55px;height:55px; padding-left: 10px;"align="left";>
-				<li class="logo">My Doctor Hospitals
+				<li class="logo">Rajarata Hospitals
 				
 				</li>
 				
@@ -45,7 +45,7 @@
 
 					<th>
 						<div class="service1-text">
-								<p>My Doctor Hospital offering a wide range of quality healthcare services for the people of Sri Lanka.
+								<p>Rajarata Hospitals offering a wide range of quality healthcare services for the people of Sri Lanka.
 								Regional local health networks provide hospitals and health services across regional South 
 								Sri Lanka to ensure better, 
 								longer and healthier lives for those living in regional areas.
@@ -134,7 +134,7 @@
         <div class="row">
         
             <div class="column5";>
-                <h1 align="left";>My Doctor Hospitals(pvt)Ltd</h1>
+                <h1 align="left";>Rajarata Hospitals(pvt)Ltd</h1>
                 <img src="img/logo.png"alt="logo"style="width:150px;height:150px;"align="left";>
             </div>
 
@@ -143,7 +143,7 @@
                 <table>
                     <tr style="line-height: 1em;">
                         <td><i class="fa"><img src="icon/7.png" style="height: 30px; width: 30px;"></i></td>
-                        <td>My Doctor Hospitals(pvt)Ltd<br>Anuradhapura<br>Sri Lanka</td>
+                        <td>Rajarata Hospitals(pvt)Ltd<br>Anuradhapura<br>Sri Lanka</td>
                     </tr>
                     <tr style="line-height: 1em;">
                         <td><i class="fa"><img src="icon/6.png" style="height: 30px; width: 30px;"></i></td>
@@ -151,11 +151,11 @@
                     </tr>
                     <tr style="line-height: 1em;">
                         <td><i class="fa"><img src="icon/4.png" style="height: 30px; width: 30px;"></i></td>
-                        <td><a href="#">www.mydoctorhospitals.abc.lk</a></td>
+                        <td><a href="#">www.rajaratahospitals.abc.lk</a></td>
                     </tr>
                     <tr style="line-height: 1em;">
                         <td><i class="fa"><img src="icon/1.png" style="height: 30px; width: 30px;"></i></td>
-                        <td><a href="#">my_doc@abc.lk</a></td>
+                        <td><a href="#">rajaratah@abc.lk</a></td>
                     <tr>
                     <tr style="line-height: 1em;">
                         <td><i class="fa"><img src="icon/3.png" style="height: 30px; width: 30px;"></i></td>

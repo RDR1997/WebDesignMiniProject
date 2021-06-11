@@ -12,7 +12,7 @@
 		<table  width="1180px";>
 				<tr style="font-size:90px;text-align:left;">
 					<td rowspan ="2"><img src="img/logo.png"alt="logo"style="width:160px;height:140px; padding-left: 10px;"></td>
-					<td style="vertical-align: top; color:#1ca7ec;">My Doctor Hospitals</td>
+					<td style="vertical-align: top; color:#1ca7ec;">Rajarata Hospitals</td>
 				</tr>
 				<tr>
 					<td style="font-size:28px;vertical-align: top;color:#9ed1e1;">It is health that is real wealth and not pieces of gold and silver.</td>
@@ -251,7 +251,7 @@
 			<div class="row">
 			
 				<div class="column5";>
-					<h1 align="left";>My Doctor Hospitals(pvt)Ltd</h1>
+					<h1 align="left";>Rajarata Hospitals(pvt)Ltd</h1>
 					<img src="img/logo.png"alt="logo"style="width:150px;height:150px;"align="left";>
 				</div>
 
@@ -260,7 +260,7 @@
 					<table>
 						<tr style="line-height: 1em;">
 							<td><i class="fa"><img src="icon/7.png" style="height: 30px; width: 30px;"></i></td>
-							<td>My Doctor Hospitals(pvt)Ltd<br>Anuradhapura<br>Sri Lanka</td>
+							<td>Rajarata Hospitals(pvt)Ltd<br>Anuradhapura<br>Sri Lanka</td>
 						</tr>
 						<tr style="line-height: 1em;">
 							<td><i class="fa"><img src="icon/6.png" style="height: 30px; width: 30px;"></i></td>
@@ -268,11 +268,11 @@
 						</tr>
 						<tr style="line-height: 1em;">
 							<td><i class="fa"><img src="icon/4.png" style="height: 30px; width: 30px;"></i></td>
-							<td><a href="#">www.mydoctorhospitals.abc.lk</a></td>
+							<td><a href="#">www.rajaratahospitals.abc.lk</a></td>
 						</tr>
 						<tr style="line-height: 1em;">
 							<td><i class="fa"><img src="icon/1.png" style="height: 30px; width: 30px;"></i></td>
-							<td><a href="#">my_doc@abc.lk</a></td>
+							<td><a href="#">rajarata@abc.lk</a></td>
 						<tr>
 						<tr style="line-height: 1em;">
 							<td><i class="fa"><img src="icon/3.png" style="height: 30px; width: 30px;"></i></td>

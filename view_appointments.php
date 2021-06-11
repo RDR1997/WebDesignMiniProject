@@ -52,7 +52,7 @@ if(!isset($_SESSION["ausername"]))
             
     </div>
     <div class="column right1">
-        <center><h3>Patients Enrolled in the System</h3>
+        <center><h3>Appontment Details</h3>
             <?php
             $sql="SELECT appointment.appointment_ID , patient.first_name, patient.last_name, doctor.d_first_name, doctor.d_last_name, appointment.date, 
                     appointment.time, appointment.description FROM appointment INNER JOIN patient ON patient.patient_ID = 

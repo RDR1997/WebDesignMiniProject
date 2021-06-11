@@ -39,7 +39,7 @@
 							<h3>Health Services For Our Region</h3>
 						</div>
 						<div class="service1-img">
-								<img src="img/Region Service.png" style = "width : 100%; height : 100%; cursor: pointer;" onclick="window.location='index.php'" alt="region" >
+								<img src="img/Region Service.png" style = "width : 100%; height : 100%; cursor: pointer;" onclick="window.location='p_dashbord.php'" alt="region" >
 						</div>
 					</th>
 
@@ -77,7 +77,7 @@
 						<h3>Find A Consultant</h3>
 					</div>
 						<div class="service1-img">
-							<img src="img/Consaltant1.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="specialist" onclick="window.location='index.php'">
+							<img src="img/Consaltant1.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="specialist" onclick="window.location='p_dashbord.php'">
 						</div>
 					</th>
 				</tr>
@@ -88,7 +88,7 @@
 						<h3>Book appointment</h3>
 					</div>
 						<div class="service1-img">
-							<img src="img/appointment services.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="appointment-img" onclick="window.location='index.php'">
+							<img src="img/appointment services.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="appointment-img" onclick="window.location='p_dashbord.php'">
 						</div>
 					</th>
 
@@ -116,7 +116,7 @@
 						<h3>Medical professionals</h3>
 					</div>
 						<div class="service1-img">
-							<img src="img/professional services.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="professional-img" onclick="window.location='index.php'">
+							<img src="img/professional services.jpg" style = "width : 100%; height : 100%; cursor: pointer;" alt="professional-img" onclick="window.location='p_dashbord.php'">
 						</div>
 					</th>
 				</tr>

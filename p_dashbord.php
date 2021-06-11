@@ -37,7 +37,7 @@ if(!isset($_SESSION["username"]))
         <img src="img/img_avatar2.png" alt="Avatar woman">
         <?php
         echo '<h2>' . print_r($_SESSION["fname"], TRUE) . '</h2>';
-        echo '<h2>' . print_r($_SESSION["lname"], TRUE) . '</h2>';
+        //echo '<h2>' . print_r($_SESSION["lname"], TRUE) . '</h2>';
         ?>
         <h4 style="cursor: pointer; width: max-content;text-align: left">
         <p> <a href="book_appointment.php">Book Appointments </a></p>

@@ -35,7 +35,7 @@ include "connection.php";
         }
         else
         {
-            echo "<p class='error'>Invalid User Details</p>";
+            echo "<p class='error'>Invalid User Details<br>Forgot Password? Please contact Hospital</p>";
         }
 
     }

@@ -42,10 +42,7 @@ if(!isset($_SESSION["ausername"]))
         <img src="img/img_avatar2.png" alt="Avatar woman">
         <h2><?php echo $_SESSION['ausername']; ?></h2>
         <p style="cursor: pointer"> <a href="a_changepass.php">Change Password </a></p>
-        <p>Some text.</p>
-        <p>Some text.</p>
-        <p>Some text.</p>
-        <p>Some text.</p>
+        <p>The art of medicine consists of amusing the patient while nature curses the disease.<br><br> - Voltaire</p>
     </div>
 </div>
 

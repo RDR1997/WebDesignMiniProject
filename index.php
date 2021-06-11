@@ -45,17 +45,17 @@
 			<!--images-->
 			<div class="mySlides">
 				<img src="img/ss1.jpg"style="width:100%">
-				<div class="text">Caption 01</div>
+				<div class="text"></div>
 			</div>
 			
 			<div class="mySlides">
 				<img src="img/ss2.jpg"style="width:100%">
-				<div class="text">Caption 02</div>		
+				<div class="text"></div>		
 			</div>
 			
 			<div class="mySlides">
 				<img src="img/ss3.jpg"style="width:100%">
-				<div class="text">Caption 03</div>	
+				<div class="text"></div>	
 			</div>
 			<br>
 			

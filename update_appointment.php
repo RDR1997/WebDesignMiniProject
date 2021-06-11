@@ -43,7 +43,7 @@ if(!isset($_SESSION["ausername"]))
         $patient_ID = mysqli_real_escape_string($db,$_REQUEST['patient_ID']);
         $description = mysqli_real_escape_string($db,$_REQUEST['description']);
 // Attempt insert query execution
-        $sql = "UPDATE appointment SET date = '$date', time = '$time', doctor_ID = '$doctor_ID', patient_ID = '$patient_ID', description = '$description' WHERE appointment.appointment_ID = '$appointment_ID'";
+        $sql = "UPDATE appointment SET date = '$date', time = '$time', appointment.doctor_ID = '$doctor_ID', appointment.patient_ID = '$patient_ID', description = '$description' WHERE appointment.appointment_ID = '$appointment_ID'";
         if(mysqli_query($db,$sql)){
             echo "<p class='success'>Records added successfully</p>";
             header('Location: admindashbord.php');
@@ -58,16 +58,16 @@ if(!isset($_SESSION["ausername"]))
         <br>
         <hr class="new1">
         <div class="details">
-            <label ="appointment_ID">Appointment_ID:</label><br>
+            <label>Appointment_ID:</label><br>
             <input type="text" id="appointment_ID" name="appointment_ID" size="59" required><br>
             <label ="date">Date:</label><br>
             <input type="date" id="date" name="date" size="59" required><br>
             <label ="time">Time:</label><br>
             <input type="time" id="time" name="time" size="59" required><br>
             <label ="doctor_ID ">Doctor ID :</label><br>
-            <input type="text" id="doctor_ID " name="doctor_ID " size="59" required><br>
+            <input type="text" id="doctor_ID " name="doctor_ID" size="59" required><br>
             <label ="patient_ID ">Patient ID :</label><br>
-            <input type="text" id="patient_ID " name="patient_ID " size="59" required><br>
+            <input type="text" id="patient_ID " name="patient_ID" size="59" required><br>
             <label ="description">Description:</label><br>
             <input type="text" id="description" name="description" size="59" required><br>
             <hr class="new1">

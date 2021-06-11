@@ -14,15 +14,14 @@ if(!isset($_SESSION["username"]))
     <link rel="stylesheet" type="text/css" href="css/admindashbord.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/table.css">
+	<link rel="stylesheet" type="text/css" href="css/formm.css">
 </head>
 <body>
 
 <!-- navigation bar------------------------------------------------------------------------------------------------------------------------------------- -->
 <ul>
     <img src="img/logo.png"alt="logo"style="width:55px;height:55px; padding-left: 10px;"align="left";>
-    <li class="logo">Rajarata Hospitals
-
-    </li>
+    <li class="logo">Rajarata Hospitals</li>
 
     <li class="nav"><a href="logout.php">Logout</a></li>
     <li class="nav"><a href="contact.php">Contact</a></li>
@@ -37,12 +36,12 @@ if(!isset($_SESSION["username"]))
         <img src="img/img_avatar2.png" alt="Avatar woman">
         <?php
         echo '<h2>' . print_r($_SESSION["fname"], TRUE) . '</h2>';
-        echo '<h2>' . print_r($_SESSION["lname"], TRUE) . '</h2>';
+        //echo '<h2>' . print_r($_SESSION["lname"], TRUE) . '</h2>';
         ?>
         <h4 style="cursor: pointer; width: max-content;text-align: left">
             <p> <a href="d_view_appointments.php">View Appointments </a></p>
             <p> <a href="d_treatment_history.php">View treatment history </a></p>
-            <p> <a href="#3">Add treatment history</a></p>
+            <p> <a href="d_add_treatment_history.php">Add treatment history</a></p>
             <p> <a href="d_changepass.php">Change Password </a></p>
         </h4>
     </div>

@@ -13,7 +13,6 @@ if(!isset($_SESSION["username"]))
 		<title>Online Patient Management System</title>
 		<link rel="stylesheet"  href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/table.css">
-  
 	</head>
 	<body>
 	<?php

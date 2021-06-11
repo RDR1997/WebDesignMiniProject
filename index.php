@@ -239,7 +239,7 @@
 					<font style="font-size:40px"><br>stay glued to the news<br></font></p>
 					<p style="font-size:20px;">Try to limit the time you spend watching, reading
 												or listening<br> to coverage of the outbreak, including on social
-												 media, and <br>think about turning off breaking news alerts on your phone.</p>
+												 media, and <br>think about turning off breaking news alerts on your phone.</p><br><br><br>
 					
 				</div>
 			</div>

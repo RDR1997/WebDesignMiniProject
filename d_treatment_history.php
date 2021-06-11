@@ -34,7 +34,7 @@ if(!isset($_SESSION["username"]))
 <div class="row">
 	<div class="col-md-12">
 	<form action="d_treatment_history.php" method="POST" style="padding-top:50px;padding-left:50px;padding-right:50px;">
-	<input type="text" name="patient_ID" style="height:30px;width:150px;border-radius:10px;"> &nbsp &nbsp &nbsp 
+	<input type="text" name="patient_ID" style="height:30px;width:150px;border-radius:10px;" placeholder="Patient ID"> &nbsp &nbsp &nbsp 
 	<input type="submit" class="search" name="search" value="search" style="height:30px;width:100px;border-radius:10px;">
 	
 	<table style='margin-right: auto' width='100%' border='1px solid #000' class='table2'>

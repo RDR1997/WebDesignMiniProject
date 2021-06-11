@@ -105,6 +105,7 @@
 			
 			<div class="column5">
 				<h1>Rajarata Hospitals(pvt)Ltd</h1>
+				<img src="img/logo.png"alt="logo"style="width:150px;height:150px;"align="left";>
 			</div>
 
 			<div class="column6">

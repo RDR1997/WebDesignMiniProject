@@ -43,7 +43,7 @@ if(!isset($_SESSION["username"]))
     //echo '<h3>' . print_r($_SESSION["username"], TRUE) . '</h3>';
     ?>
         <?php
-        $sql="SELECT * FROM treatment_history where username = '{$_SESSION["username"]}' ";
+        $sql="SELECT * FROM treatment_history where patient_ID = '{$_SESSION["patient_ID"]}' ";
         $res=$db->query($sql);
         if($res->num_rows>0)
         {
